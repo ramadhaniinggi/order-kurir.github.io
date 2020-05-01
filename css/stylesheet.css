@@ -8,6 +8,13 @@
     box-sizing: border-box;
 }
 
+#link-box {
+    text-decoration: none;
+    
+}
+
+ /*HEADER  */
+
 .top-wrapper{
     background-size: cover;
     background-image: url("../img/hero_4.jpg");
@@ -20,11 +27,11 @@
     max-width: 1170px;
     width:100%;
     margin: auto;
-    
+    padding: 20px 0;
 }
 
 .logo {
-    height:180px;
+    height:150px;
 }
 
 .brand, .tagline {
@@ -42,6 +49,8 @@
     color: rgb(97, 97, 245);
     font-size: 25px;
 }
+
+/* INDEX HTML  */
 
 .sub-container {
     display: flex;
@@ -75,6 +84,7 @@
 .title-service {
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
+    text-decoration: none;
 }
 
 .sub-service:hover {
@@ -82,7 +92,46 @@
     cursor: pointer;
 }
 
+/* KURIR AMBIL */
 
+.main-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-name {
+    margin: auto;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5em/5em;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+
+.sub-contain {
+    padding: 20px;
+    margin: auto;
+    
+
+}
+
+
+
+.button-form {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cekHarga {
+    margin-right: 20px;
+}
+
+#map {
+    float: left;
+    width: calc(100% - 400px);
+    height: 100vh;
+}
 
 
 
