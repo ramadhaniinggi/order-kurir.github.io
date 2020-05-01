@@ -124,14 +124,9 @@
 }
 
 .cekHarga {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-#map {
-    float: left;
-    width: calc(100% - 400px);
-    height: 100vh;
-}
 
 
 
